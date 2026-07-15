@@ -1,0 +1,42 @@
+{
+  "$comment": "State Navigator config template (spec 4.4 / 7.3). One file per state + DC — copy this file to <STATE_CODE>.json (e.g. OH.json) and fill it in. Adding a state is a research task, never a code change. Every value below differs by state, which is the entire problem this app solves.",
+  "state_code": "XX",
+  "state_name": "Statename",
+  "verified": false,
+  "last_reviewed": null,
+  "sources": [
+    "$comment: URLs of the official state agency pages each fact was verified against"
+  ],
+  "medicaid_agency": {
+    "name": "",
+    "phone": "",
+    "website": ""
+  },
+  "waiver_programs": [
+    {
+      "program_name": "",
+      "common_name": "",
+      "who_qualifies": "",
+      "waitlist_expected": null,
+      "website": ""
+    }
+  ],
+  "pipeline_stages": [
+    {
+      "stage": 1,
+      "title": "",
+      "plain_english": "",
+      "documents_needed": [],
+      "typical_timeline": "",
+      "who_to_contact": ""
+    }
+  ],
+  "key_documents": [
+    {
+      "doc_name": "",
+      "issued_by": "",
+      "why_it_matters": ""
+    }
+  ],
+  "notes_for_parents": ""
+}
